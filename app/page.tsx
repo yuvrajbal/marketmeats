@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main className="pb-24">
       <Hero />
       <TheDifferenceSection />
       <VariationsSection />
@@ -154,7 +154,7 @@ function ShopItem({ mobileSrc, desktopSrc, overlayText }: ShopItemProps) {
 
 function VisualAllItems() {
   return (
-    <main className="max-w-6xl mx-auto py-16">
+    <main className="max-w-7xl mx-auto py-36">
       <div className="relative">
         <Image
           src={"/Box_Overhead-0081-Edit_lo_1880x1050.webp"}
@@ -163,17 +163,16 @@ function VisualAllItems() {
           width={1880}
           className="w-full h-auto"
         />
-        <div className="absolute bottom-[-250px] left-1/2 transform -translate-x-1/2">
+        <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-28 md:-bottom-40 lg:-bottom-56 flex flex-col items-center">
           <Image
-            src={
-              "/Inspirational_Glass_of_Whiskey_61814cff-55d9-48dc-ac72-452216e63819_1060x720.webp"
-            }
+            src="/Inspirational_Glass_of_Whiskey_61814cff-55d9-48dc-ac72-452216e63819_1060x720.webp"
             alt="cheers"
             height={420}
             width={420}
+            className="w-44 md:w-72 lg:w-fit h-auto"
           />
-          <h1 className="mt-2 text-center uppercase text-2xl font-bold text-black tracking-wide">
-            Cheers!
+          <h1 className="mt-4 text-center uppercase text-2xl font-bold text-black tracking-tight">
+            Cheers
           </h1>
         </div>
       </div>

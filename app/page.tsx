@@ -7,7 +7,7 @@ export default function Home() {
       <Hero />
       <TheDifferenceSection />
       <VariationsSection />
-      <VisualAllItems />
+      {/* <VisualAllItems /> */}
     </main>
   );
 }

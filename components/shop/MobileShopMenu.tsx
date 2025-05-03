@@ -131,7 +131,7 @@ export default function MobileShopMenu() {
                   href={item.href}
                   className={`flex items-center space-x-3 p-4 rounded-md transition-colors ${
                     isActive
-                      ? "bg-orange-50 text-orange-600 font-semibold"
+                      ? "bg-orange-50  font-semibold"
                       : "hover:bg-gray-50"
                   }`}
                   onClick={handleMenuItemClick}
